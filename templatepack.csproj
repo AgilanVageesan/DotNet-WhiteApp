@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
-    <PackageId>DotNetWhiteApp.Utility.Templates</PackageId>
+    <PackageId>DotNet.WhiteApp</PackageId>
     <Title>DotNetWhiteApp Templates</Title>
     <Authors>Agilan Vageesan</Authors>
     <Description>Templates to use when creating an web application for Dot Net Core.</Description>
@@ -15,7 +15,9 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
   </PropertyGroup>
-
+   <PropertyGroup>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+</PropertyGroup>
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
